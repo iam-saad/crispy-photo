@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 62.5%;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 30vh;
+}
+h2 {
+	padding: 2rem;
+}
+#logo {
+	font-size: 2rem;
+	text-decoration: none;
+	color: rgb(37, 71, 151);
+}
+.search-form {
+	display: flex;
+	padding: 1.5rem;
+}
+.search-form input {
+	font-size: 1rem;
+	padding: 0.8rem;
+	width: 100%;
+	border: 2px solid rgb(37, 71, 151);
+}
+.search-form button {
+	padding: 0.8rem;
+	font-size: 1rem;
+	border: none;
+	background: rgb(37, 71, 151);
+	color: white;
+	cursor: pointer;
+}
